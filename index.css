@@ -17,7 +17,7 @@
 }
 
 .u-section-1 .u-text-1 {
-  margin: 0 auto 0 0;
+  margin: 15px auto 0 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -25,7 +25,8 @@
 }
 
 .u-section-1 .u-btn-1 {
-  margin: 40px 697px 0 0;
+  margin: 40px auto 0 0;
+  padding: 10px 87px;
 }
 
 .u-section-1 .u-image-1 {
@@ -77,10 +78,6 @@
     margin-right: 0;
   }
 
-  .u-section-1 .u-btn-1 {
-    margin-right: 564px;
-  }
-
   .u-section-1 .u-image-1 {
     min-height: 343px;
   }
@@ -105,10 +102,6 @@
 
   .u-section-1 .u-container-layout-1 {
     padding-left: 30px;
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-right: 437px;
   }
 
   .u-section-1 .u-image-1 {
@@ -364,6 +357,7 @@
 } .u-section-3 {
   background-repeat: no-repeat;
   background-image: url("images/Octavia-4-Combi-Sportline-Phoenix-02.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-3 .u-sheet-1 {
@@ -371,12 +365,14 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-3 {
-    background-position: 50% 50%;
-  }
-
   .u-section-3 .u-sheet-1 {
     min-height: 400px;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-3 {
+    background-position: 50% 50%;
   }
 } .u-section-4 {
   min-height: 778px;
@@ -642,12 +638,19 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-5 {
+    min-height: 1320px;
+  }
+
   .u-section-5 .u-list-1 {
-    width: 940px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-5 .u-repeater-1 {
     grid-template-columns: 100%;
+    min-height: 591px;
     grid-gap: 30px;
   }
 
@@ -664,19 +667,19 @@
   }
 
   .u-section-5 .u-list-2 {
-    width: 940px;
+    margin-top: 20px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-5 .u-repeater-2 {
     grid-template-columns: 100%;
+    min-height: 505px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-5 .u-list-1 {
-    width: 720px;
-  }
-
   .u-section-5 .u-text-2 {
     margin-right: 281px;
     margin-left: 87px;
@@ -703,17 +706,9 @@
   .u-section-5 .u-text-7 {
     margin-left: 87px;
   }
-
-  .u-section-5 .u-list-2 {
-    width: 720px;
-  }
 }
 
 @media (max-width: 767px) {
-  .u-section-5 .u-list-1 {
-    width: 540px;
-  }
-
   .u-section-5 .u-container-layout-1 {
     padding-left: 10px;
     padding-right: 10px;
@@ -742,10 +737,6 @@
   .u-section-5 .u-text-6 {
     width: auto;
     margin-right: 13px;
-  }
-
-  .u-section-5 .u-list-2 {
-    width: 540px;
   }
 
   .u-section-5 .u-container-layout-4 {
@@ -765,8 +756,12 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-5 .u-list-1 {
-    width: 340px;
+   .u-section-5 {
+    min-height: 1510px;
+  }
+
+  .u-section-5 .u-repeater-1 {
+    min-height: 801px;
   }
 
   .u-section-5 .u-container-layout-1 {
@@ -812,10 +807,6 @@
   .u-section-5 .u-text-7 {
     margin-right: 10px;
     margin-left: 97px;
-  }
-
-  .u-section-5 .u-list-2 {
-    width: 340px;
   }
 
   .u-section-5 .u-text-8 {
@@ -1029,7 +1020,6 @@
     margin-top: 2px;
     margin-bottom: 20px;
     min-height: 554px;
-    background-position: 50% 50%;
     height: auto;
   }
 }
@@ -1047,6 +1037,7 @@
     margin-top: 13px;
     margin-bottom: 59px;
     min-height: 524px;
+    background-position: 50% 50%;
   }
 }
 
@@ -1074,6 +1065,31 @@
 @media (max-width: 575px) {
    .u-section-7 {
     min-height: 934px;
+  }
+
+  .u-section-7 .u-layout-cell-1 {
+    min-height: 205px;
+  }
+
+  .u-section-7 .u-container-layout-1 {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .u-section-7 .u-text-1 {
+    margin-left: 43px;
+    margin-right: 43px;
+  }
+
+  .u-section-7 .u-text-2 {
+    margin-left: 43px;
+    margin-right: 43px;
+  }
+
+  .u-section-7 .u-btn-1 {
+    margin-top: 19px;
+    padding-right: 18px;
+    padding-left: 17px;
   }
 } .u-section-8 {
   min-height: 657px;
