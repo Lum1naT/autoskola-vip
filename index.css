@@ -362,6 +362,7 @@
 } .u-section-3 {
   background-repeat: no-repeat;
   background-image: url("images/Octavia-4-Combi-Sportline-Phoenix-02.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-3 .u-sheet-1 {
@@ -369,24 +370,26 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-3 {
-    background-position: 50% 50%;
-  }
-
   .u-section-3 .u-sheet-1 {
     min-height: 400px;
   }
+}
+
+@media (max-width: 991px) {
+   .u-section-3 {
+    background-position: 50% 50%;
+  }
 } .u-section-4 {
-  min-height: 778px;
+  min-height: 431px;
 }
 
 .u-section-4 .u-layout-wrap-1 {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 34px;
+  margin-bottom: 33px;
 }
 
 .u-section-4 .u-layout-cell-1 {
-  min-height: 688px;
+  min-height: 394px;
   --radius: 50px;
 }
 
@@ -395,7 +398,7 @@
 }
 
 .u-section-4 .u-text-1 {
-  margin: 222px 252px 0 0;
+  margin: 58px 1261px 0 0;
 }
 
 .u-section-4 .u-text-2 {
@@ -404,11 +407,12 @@
 
 @media (max-width: 1199px) {
    .u-section-4 {
-    min-height: 657px;
+    min-height: 446px;
   }
 
   .u-section-4 .u-layout-wrap-1 {
-    margin-top: 63px;
+    margin-top: 48px;
+    margin-bottom: 48px;
   }
 
   .u-section-4 .u-layout-cell-1 {
@@ -438,7 +442,7 @@
   }
 
   .u-section-4 .u-layout-wrap-1 {
-    margin-top: 60px;
+    margin-top: 34px;
   }
 
   .u-section-4 .u-layout-cell-1 {
@@ -1060,7 +1064,6 @@
     margin-top: 2px;
     margin-bottom: 20px;
     min-height: 554px;
-    background-position: 50% 50%;
     height: auto;
   }
 }
@@ -1078,6 +1081,7 @@
     margin-top: 13px;
     margin-bottom: 59px;
     min-height: 524px;
+    background-position: 50% 50%;
   }
 }
 
