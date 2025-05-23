@@ -969,14 +969,8 @@
   margin: 20px 10px 0;
 }
 
-.u-section-7 .u-btn-1 {
-  --radius: 50px;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 0.875rem;
-  letter-spacing: 1px;
+.u-section-7 .u-custom-html-1 {
   margin: 39px auto 0;
-  padding: 10px 79px 10px 78px;
 }
 
 .u-section-7 .u-image-1 {
@@ -1063,10 +1057,6 @@
     min-height: 934px;
   }
 
-  .u-section-7 .u-layout-cell-1 {
-    min-height: 205px;
-  }
-
   .u-section-7 .u-container-layout-1 {
     padding-left: 7px;
     padding-right: 7px;
@@ -1082,10 +1072,8 @@
     margin-right: 43px;
   }
 
-  .u-section-7 .u-btn-1 {
+  .u-section-7 .u-custom-html-1 {
     margin-top: 19px;
-    padding-right: 10px;
-    padding-left: 10px;
   }
 } .u-section-8 {
   background-image: none;
