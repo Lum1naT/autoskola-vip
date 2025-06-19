@@ -994,7 +994,7 @@
     margin-right: 600px;
   }
 } .u-section-7 {
-  min-height: 1042px;
+  min-height: 2125px;
 }
 
 .u-section-7 .u-layout-wrap-1 {
@@ -1028,17 +1028,32 @@
   height: auto;
   background-repeat: no-repeat, no-repeat;
   background-image: url('images/Octavia-4-Sportline-Phoenix-03.jpg'), linear-gradient(to bottom, rgba(229, 229, 229, 1), rgba(229, 229, 229, 1));
-  margin-top: 19px;
-  margin-bottom: 59px;
+  margin: 10px 0 0;
 }
 
 .u-section-7 .u-container-layout-2 {
   padding: 30px;
 }
 
+.u-section-7 .u-text-3 {
+  font-size: 1.5rem;
+  margin: 30px auto 0;
+}
+
+.u-section-7 .u-text-4 {
+  width: 786px;
+  margin: 18px auto 22px;
+}
+
+.u-section-7 .u-btn-1 {
+  background-image: none;
+  font-size: 1.125rem;
+  padding: 0;
+}
+
 @media (max-width: 1199px) {
    .u-section-7 {
-    min-height: 924px;
+    min-height: 2078px;
   }
 
   .u-section-7 .u-layout-cell-1 {
@@ -1060,13 +1075,15 @@
     margin-bottom: 20px;
     min-height: 554px;
     background-position: 50% 50%;
+    margin-right: initial;
+    margin-left: initial;
     height: auto;
   }
 }
 
 @media (max-width: 991px) {
    .u-section-7 {
-    min-height: 960px;
+    min-height: 1956px;
   }
 
   .u-section-7 .u-layout-cell-1 {
@@ -1075,16 +1092,18 @@
 
   .u-section-7 .u-image-1 {
     margin-top: 13px;
-    margin-bottom: 59px;
+    margin-bottom: 0;
     min-height: 524px;
+    margin-right: initial;
+    margin-left: initial;
+  }
+
+  .u-section-7 .u-text-4 {
+    width: 720px;
   }
 }
 
 @media (max-width: 767px) {
-   .u-section-7 {
-    min-height: 978px;
-  }
-
   .u-section-7 .u-container-layout-1 {
     padding-left: 50px;
     padding-right: 50px;
@@ -1093,19 +1112,25 @@
   .u-section-7 .u-image-1 {
     margin-top: 0;
     margin-bottom: 40px;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-7 .u-container-layout-2 {
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .u-section-7 .u-text-3 {
+    font-size: 1.3333333333333333rem;
+  }
+
+  .u-section-7 .u-text-4 {
+    width: 540px;
+  }
 }
 
 @media (max-width: 575px) {
-   .u-section-7 {
-    min-height: 934px;
-  }
-
   .u-section-7 .u-container-layout-1 {
     padding-left: 7px;
     padding-right: 7px;
@@ -1123,6 +1148,10 @@
 
   .u-section-7 .u-custom-html-1 {
     margin-top: 19px;
+  }
+
+  .u-section-7 .u-text-4 {
+    width: 340px;
   }
 } .u-section-8 {
   background-image: none;
