@@ -371,6 +371,7 @@
 } .u-section-3 {
   background-repeat: no-repeat;
   background-image: url("images/Octavia-4-Combi-Sportline-Phoenix-02.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-3 .u-sheet-1 {
@@ -378,10 +379,6 @@
 }
 
 @media (max-width: 1199px) {
-   .u-section-3 {
-    background-position: 50% 50%;
-  }
-
   .u-section-3 .u-sheet-1 {
     min-height: 400px;
   }
@@ -608,7 +605,7 @@
 }
 
 .u-section-5 .u-text-7 {
-  margin: 20px auto 0 115px;
+  margin: 20px 42px 0 115px;
 }
 
 .u-section-5 .u-text-8 {
@@ -628,7 +625,7 @@
 }
 
 .u-section-5 .u-text-10 {
-  margin: 20px auto 0 115px;
+  margin: 20px 42px 0 115px;
 }
 
 .u-section-5 .u-text-11 {
@@ -648,7 +645,7 @@
 }
 
 .u-section-5 .u-text-13 {
-  margin: 20px auto 0 115px;
+  margin: 20px 42px 0 115px;
 }
 
 .u-section-5 .u-text-14 {
@@ -793,6 +790,7 @@
   }
 
   .u-section-5 .u-text-7 {
+    margin-right: 0;
     margin-left: 71px;
   }
 
@@ -805,6 +803,7 @@
   }
 
   .u-section-5 .u-text-10 {
+    margin-right: 0;
     margin-left: 71px;
   }
 
@@ -817,6 +816,7 @@
   }
 
   .u-section-5 .u-text-13 {
+    margin-right: 0;
     margin-left: 71px;
   }
 
@@ -824,7 +824,7 @@
     margin-left: 71px;
   }
 } .u-section-6 {
-  min-height: 866px;
+  min-height: 1211px;
 }
 
 .u-section-6 .u-text-1 {
@@ -833,13 +833,14 @@
 
 .u-section-6 .u-list-1 {
   grid-template-rows: repeat(1, auto);
-  margin: 41px 0 60px;
+  margin-top: 41px;
+  margin-bottom: 0;
 }
 
 .u-section-6 .u-repeater-1 {
   grid-auto-columns: 100%;
   grid-template-columns: repeat(1, 100%);
-  min-height: 513px;
+  min-height: 1058px;
   --gap: 10px;
 }
 
@@ -848,11 +849,10 @@
 }
 
 .u-section-6 .u-image-1 {
-  height: 1077px;
+  object-position: 50% 28%;
+  height: 875px;
   margin-top: 0;
   margin-bottom: 0;
-  --radius: 50px;
-  object-position: 50% 14.54%;
 }
 
 .u-section-6 .u-text-2 {
@@ -872,16 +872,10 @@
     margin-top: 86px;
   }
 
-  .u-section-6 .u-list-1 {
-    width: 343px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .u-section-6 .u-repeater-1 {
     grid-auto-columns: calc(33.3333% - 6.66667px);
     grid-template-columns: repeat(3, calc(33.3333% - 6.66667px));
-    min-height: 516px;
+    min-height: 743px;
     width: 1040px;
     margin-right: 0;
     margin-left: 0;
@@ -889,7 +883,13 @@
   }
 
   .u-section-6 .u-image-1 {
-    height: NaNpx;
+    inset: auto;
+    height: 713px;
+  }
+
+  .u-section-6 .u-text-2 {
+    margin-top: 20px;
+    margin-bottom: initial;
   }
 }
 
@@ -899,9 +899,7 @@
   }
 
   .u-section-6 .u-list-1 {
-    width: 520px;
     margin-top: 78px;
-    margin-right: calc(((100% - 720px) / 2)  + 13px);
     margin-bottom: 22px;
   }
 
@@ -909,6 +907,10 @@
     grid-auto-columns: calc(50% - 5px);
     grid-template-columns: repeat(2, calc(50% - 5px));
     min-height: 820px;
+  }
+
+  .u-section-6 .u-image-1 {
+    height: 535px;
   }
 }
 
@@ -924,7 +926,6 @@
   .u-section-6 .u-list-1 {
     height: auto;
     margin-top: 20px;
-    margin-right: calc(((100% - 540px) / 2) + 13px);
   }
 
   .u-section-6 .u-repeater-1 {
@@ -936,31 +937,46 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .u-section-6 .u-image-1 {
+    height: 422px;
+  }
 }
 
 @media (max-width: 575px) {
    .u-section-6 {
-    min-height: 887px;
+    min-height: 522px;
   }
 
   .u-section-6 .u-list-1 {
-    width: 340px;
-    margin-right: calc(((100% - 340px) / 2));
     margin-bottom: 0;
+    height: auto;
   }
 
   .u-section-6 .u-repeater-1 {
-    min-height: 774px;
+    min-height: 409px;
+  }
+
+  .u-section-6 .u-container-layout-1 {
+    padding-bottom: 28px;
+  }
+
+  .u-section-6 .u-image-1 {
+    height: 260px;
+    width: 420px;
+    margin-right: 600px;
+    margin-left: 0;
   }
 
   .u-section-6 .u-text-2 {
     width: auto;
-    margin-right: 690px;
+    margin-right: 600px;
+    margin-bottom: 0;
   }
 
   .u-section-6 .u-text-3 {
     width: auto;
-    margin-right: 690px;
+    margin-right: 600px;
   }
 } .u-section-7 {
   min-height: 1042px;
