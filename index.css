@@ -50,14 +50,16 @@
 }
 
 .u-section-1 .u-text-3 {
-  margin: 69px 0 0;
+  margin: 69px auto 0 0;
 }
 
 .u-section-1 .u-image-2 {
   min-height: 416px;
-  background-image: url("images/Octavia-4-Sportline-Phoenix-03.jpg");
+  background-image: url("images/fabia-front.jpeg");
   --radius: 50px;
   background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .u-section-1 .u-container-layout-4 {
@@ -370,8 +372,7 @@
   }
 } .u-section-3 {
   background-repeat: no-repeat;
-  background-image: url("images/Octavia-4-Combi-Sportline-Phoenix-02.jpg");
-  background-position: 50% 50%;
+  background-image: url("images/fabia-back.png");
 }
 
 .u-section-3 .u-sheet-1 {
@@ -379,6 +380,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-3 {
+    background-position: 50% 50%;
+  }
+
   .u-section-3 .u-sheet-1 {
     min-height: 400px;
   }
@@ -856,10 +861,18 @@
 }
 
 .u-section-6 .u-text-2 {
+  font-weight: 700;
+  font-size: 1.875rem;
   margin: 40px 0 0;
 }
 
 .u-section-6 .u-text-3 {
+  font-size: 1.5rem;
+  margin: 20px 0 0;
+}
+
+.u-section-6 .u-text-4 {
+  font-style: italic;
   margin: 20px 0 0;
 }
 
@@ -889,7 +902,6 @@
 
   .u-section-6 .u-text-2 {
     margin-top: 20px;
-    margin-bottom: initial;
   }
 }
 
@@ -941,6 +953,10 @@
   .u-section-6 .u-image-1 {
     height: 422px;
   }
+
+  .u-section-6 .u-text-3 {
+    font-size: 1.3333333333333333rem;
+  }
 }
 
 @media (max-width: 575px) {
@@ -971,7 +987,6 @@
   .u-section-6 .u-text-2 {
     width: auto;
     margin-right: 600px;
-    margin-bottom: 0;
   }
 
   .u-section-6 .u-text-3 {
